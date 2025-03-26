@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7467D542D9360920016EC1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7467D532D9360920016EC1A /* AppDelegate.swift */; };
+		C7467D562D9360920016EC1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7467D552D9360920016EC1A /* SceneDelegate.swift */; };
+		C7467D5B2D9360920016EC1A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C7467D5A2D9360920016EC1A /* Base */; };
+		C7467D5E2D9360920016EC1A /* RoachReaper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7467D5C2D9360920016EC1A /* RoachReaper.xcdatamodeld */; };
+		C7467D602D9360940016EC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7467D5F2D9360940016EC1A /* Assets.xcassets */; };
+		C7467D632D9360940016EC1A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C7467D622D9360940016EC1A /* Base */; };
+		C7467D6F2D9360D00016EC1A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7467D6E2D9360D00016EC1A /* MainViewController.swift */; };
+		C7467D712D9360DF0016EC1A /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7467D702D9360DF0016EC1A /* MainPresenter.swift */; };
+		C7467D732D9360EA0016EC1A /* MainScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7467D722D9360EA0016EC1A /* MainScreenModel.swift */; };
+		C7467D762D93615E0016EC1A /* CockroachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7467D752D93615E0016EC1A /* CockroachView.swift */; };
+		C7467D792D9361AC0016EC1A /* UIView+Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7467D782D9361AC0016EC1A /* UIView+Pin.swift */; };
+		C7467D7B2D9361F10016EC1A /* ChooseNMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7467D7A2D9361F10016EC1A /* ChooseNMView.swift */; };
+		C7467D7D2D9362410016EC1A /* MainScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7467D7C2D9362400016EC1A /* MainScreenAssembly.swift */; };
+		C7467D7F2D93EAB80016EC1A /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7467D7E2D93EAB80016EC1A /* GameOverView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7467D502D9360920016EC1A /* RoachReaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoachReaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7467D532D9360920016EC1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7467D552D9360920016EC1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C7467D5A2D9360920016EC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7467D5D2D9360920016EC1A /* RoachReaper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoachReaper.xcdatamodel; sourceTree = "<group>"; };
+		C7467D5F2D9360940016EC1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7467D622D9360940016EC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7467D642D9360940016EC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7467D6E2D9360D00016EC1A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C7467D702D9360DF0016EC1A /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		C7467D722D9360EA0016EC1A /* MainScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenModel.swift; sourceTree = "<group>"; };
+		C7467D752D93615E0016EC1A /* CockroachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockroachView.swift; sourceTree = "<group>"; };
+		C7467D782D9361AC0016EC1A /* UIView+Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Pin.swift"; sourceTree = "<group>"; };
+		C7467D7A2D9361F10016EC1A /* ChooseNMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseNMView.swift; sourceTree = "<group>"; };
+		C7467D7C2D9362400016EC1A /* MainScreenAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenAssembly.swift; sourceTree = "<group>"; };
+		C7467D7E2D93EAB80016EC1A /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7467D4D2D9360920016EC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7467D472D9360920016EC1A = {
+			isa = PBXGroup;
+			children = (
+				C7467D522D9360920016EC1A /* RoachReaper */,
+				C7467D512D9360920016EC1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7467D512D9360920016EC1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7467D502D9360920016EC1A /* RoachReaper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7467D522D9360920016EC1A /* RoachReaper */ = {
+			isa = PBXGroup;
+			children = (
+				C7467D772D93619E0016EC1A /* Extensions */,
+				C7467D6C2D9360AD0016EC1A /* Screens */,
+				C7467D532D9360920016EC1A /* AppDelegate.swift */,
+				C7467D552D9360920016EC1A /* SceneDelegate.swift */,
+				C7467D592D9360920016EC1A /* Main.storyboard */,
+				C7467D5F2D9360940016EC1A /* Assets.xcassets */,
+				C7467D612D9360940016EC1A /* LaunchScreen.storyboard */,
+				C7467D642D9360940016EC1A /* Info.plist */,
+				C7467D5C2D9360920016EC1A /* RoachReaper.xcdatamodeld */,
+			);
+			path = RoachReaper;
+			sourceTree = "<group>";
+		};
+		C7467D6C2D9360AD0016EC1A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C7467D6D2D9360B40016EC1A /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C7467D6D2D9360B40016EC1A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C7467D742D93614A0016EC1A /* Views */,
+				C7467D6E2D9360D00016EC1A /* MainViewController.swift */,
+				C7467D702D9360DF0016EC1A /* MainPresenter.swift */,
+				C7467D722D9360EA0016EC1A /* MainScreenModel.swift */,
+				C7467D7C2D9362400016EC1A /* MainScreenAssembly.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C7467D742D93614A0016EC1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7467D752D93615E0016EC1A /* CockroachView.swift */,
+				C7467D7A2D9361F10016EC1A /* ChooseNMView.swift */,
+				C7467D7E2D93EAB80016EC1A /* GameOverView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7467D772D93619E0016EC1A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C7467D782D9361AC0016EC1A /* UIView+Pin.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7467D4F2D9360920016EC1A /* RoachReaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7467D672D9360940016EC1A /* Build configuration list for PBXNativeTarget "RoachReaper" */;
+			buildPhases = (
+				C7467D4C2D9360920016EC1A /* Sources */,
+				C7467D4D2D9360920016EC1A /* Frameworks */,
+				C7467D4E2D9360920016EC1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoachReaper;
+			productName = RoachReaper;
+			productReference = C7467D502D9360920016EC1A /* RoachReaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7467D482D9360920016EC1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C7467D4F2D9360920016EC1A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C7467D4B2D9360920016EC1A /* Build configuration list for PBXProject "RoachReaper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7467D472D9360920016EC1A;
+			productRefGroup = C7467D512D9360920016EC1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7467D4F2D9360920016EC1A /* RoachReaper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7467D4E2D9360920016EC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7467D602D9360940016EC1A /* Assets.xcassets in Resources */,
+				C7467D632D9360940016EC1A /* Base in Resources */,
+				C7467D5B2D9360920016EC1A /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7467D4C2D9360920016EC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7467D5E2D9360920016EC1A /* RoachReaper.xcdatamodeld in Sources */,
+				C7467D7F2D93EAB80016EC1A /* GameOverView.swift in Sources */,
+				C7467D7D2D9362410016EC1A /* MainScreenAssembly.swift in Sources */,
+				C7467D732D9360EA0016EC1A /* MainScreenModel.swift in Sources */,
+				C7467D712D9360DF0016EC1A /* MainPresenter.swift in Sources */,
+				C7467D7B2D9361F10016EC1A /* ChooseNMView.swift in Sources */,
+				C7467D542D9360920016EC1A /* AppDelegate.swift in Sources */,
+				C7467D792D9361AC0016EC1A /* UIView+Pin.swift in Sources */,
+				C7467D562D9360920016EC1A /* SceneDelegate.swift in Sources */,
+				C7467D762D93615E0016EC1A /* CockroachView.swift in Sources */,
+				C7467D6F2D9360D00016EC1A /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7467D592D9360920016EC1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7467D5A2D9360920016EC1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7467D612D9360940016EC1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7467D622D9360940016EC1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7467D652D9360940016EC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7467D662D9360940016EC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7467D682D9360940016EC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoachReaper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HSE.RoachReaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7467D692D9360940016EC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoachReaper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HSE.RoachReaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7467D4B2D9360920016EC1A /* Build configuration list for PBXProject "RoachReaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7467D652D9360940016EC1A /* Debug */,
+				C7467D662D9360940016EC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7467D672D9360940016EC1A /* Build configuration list for PBXNativeTarget "RoachReaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7467D682D9360940016EC1A /* Debug */,
+				C7467D692D9360940016EC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7467D5C2D9360920016EC1A /* RoachReaper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7467D5D2D9360920016EC1A /* RoachReaper.xcdatamodel */,
+			);
+			currentVersion = C7467D5D2D9360920016EC1A /* RoachReaper.xcdatamodel */;
+			path = RoachReaper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C7467D482D9360920016EC1A /* Project object */;
+}

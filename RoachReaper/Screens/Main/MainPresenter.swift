@@ -119,9 +119,11 @@ class MainPresenter {
     }
     
     func stopTimers() {
-        addCockroachesTimer!.invalidate()
+        guard let t = addCockroachesTimer else {return}
+        t.invalidate()
         addCockroachesTimer = nil
-        moveCockroachesTimer!.invalidate()
+        guard let t = moveCockroachesTimer else {return}
+        t.invalidate()
         moveCockroachesTimer = nil
     }
 }
